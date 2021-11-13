@@ -1,4 +1,4 @@
-package ma.emsi.tpcustomerapplication1;
+package ma.emsi.tpcustomerapplication1.entities;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

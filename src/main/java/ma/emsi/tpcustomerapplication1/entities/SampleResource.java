@@ -1,4 +1,4 @@
-package ma.emsi.tpcustomerapplication1;
+package ma.emsi.tpcustomerapplication1.entities;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
