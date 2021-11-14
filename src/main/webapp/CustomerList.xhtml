@@ -21,7 +21,7 @@
     <h:head>
         <title>List des clients</title>
     </h:head>
-    <h:body styleClass="background">
+    <h:body styleClass="background" >
         <f:view>
             <h:form styleClass="background">
                 <h1><h:outputText value="List des clients" styleClass="text"/></h1>
@@ -56,7 +56,7 @@
                         </f:facet>
                         <h:outputText value="#{item.city}"/>
                     </p:column>
-                    <p:column styleClass="colum">
+                    <p:column styleClass="colum" filterBy="#{item.state}">
                         <f:facet name="header">
                             <h:outputText value="State"/>
                         </f:facet>
